@@ -1,0 +1,79 @@
+:root {
+  --color00: #ffffff;
+  --color01: #860A35;
+  --color02: #AF2655;
+  --color03: #A3B763;
+  --color04: #F3F3F3;
+}
+
+*{
+    color: var(--color01);
+}
+
+body {
+  background-color: var(--color03);
+  box-sizing: border-box;
+}
+
+.cabecalho{
+    font-size: small;
+    padding: 2% 0% 0% 15%;
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 30px;
+}
+.cabecalho__menu__link{
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 30%;
+    gap: 5px;
+}
+
+.titulo {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal_botoes {
+    padding: 5px;
+    margin: 0px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    border: none;
+    color: var(--color04);
+    background-color: var(--color01);
+    border-radius: 10px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+
+
+.button:hover {
+  background-color: var(--color02);
+  color: var(--color04);
+}
