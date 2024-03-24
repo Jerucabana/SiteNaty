@@ -1,0 +1,46 @@
+:root {
+  --color00: #ffffff;
+  --color01: #860A35;
+  --color02: #AF2655;
+  --color03: #A3B763;
+  --color04: #F3F3F3;
+}
+
+*{
+    color: var(--color01);
+}
+
+body {
+  background-color: var(--color03);
+  box-sizing: border-box;
+}
+
+.cabecalho{
+    font-size: small;
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+}
+.cabecalho__menu__link{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color01);
+    text-decoration: none;
+}
+
+#catalogo {
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.catalogo_item {
+    align-items: center;
+    margin: 20px;
+    padding: 15px 10px 10px 0px;
+	text-align: center;
+	font-size: 1em;
+    border: solid 3px;
+    border-color: var(--color02)
+}
