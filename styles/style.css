@@ -1,87 +1,87 @@
 :root {
-  --color00: #ffffff;
-  --color01: #860A35;
-  --color02: #AF2655;
-  --color03: #A3B763;
-  --color04: #F3F3F3;
+--color00: #ffffff;
+--color01: #860A35;
+--color02: #AF2655;
+--color03: #A3B763;
+--color04: #F3F3F3;
 }
 
 *{
-    color: var(--color01);
+color: var(--color01);
 }
 
 body {
-    background-color: var(--color03);
-    box-sizing: border-box;
-    width: 100%;
+background-color: var(--color03);
+box-sizing: border-box;
+width: 100%;
 }
 
 h1 {
-    font-size: 1.5em;
+font-size: 1.5em;
 }
 
 .cabecalho{
-    font-size: small;
+font-size: small;
 }
 .cabecalho__menu{
-    display: flex;
-    gap: 20px;
-    justify-content: flex start;
+display: flex;
+gap: 20px;
+justify-content: flex start;
 }
 .cabecalho__menu__link{
-    font-size: 20px;
-    font-weight: 600;
-    color: var(--color01);
-    text-decoration: none;
+font-size: 20px;
+font-weight: 600;
+color: var(--color01);
+text-decoration: none;
 }
 
 .principal {
-    margin: 5vh 15vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 5%;
+margin: 5vh 15vh;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 5%;
 }
 
 .principal_texto{
-    display:flex;
-    flex-direction: column;
-    width: 615px;
+display:flex;
+flex-direction: column;
+width: 615px;
 }
 
 .principal_texto_titulo{
-    text-align: center;
-    text-decoration: underline;
+text-align: center;
+text-decoration: underline;
 }
 
 .foto {
-    display: flex;
-    align-self: flex-start;
-    gap: 5px;
+display: flex;
+align-self: flex-start;
+gap: 5px;
 }
 
 .botao{
-    align-content: center;
-    color: var(--color04); 
-    background-color: var(--color01);
-    padding: 5px 11px; 
-    border: 2px solid var(--color01);
-    border-radius: 10px;
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:5px
+align-content: center;
+color: var(--color04); 
+background-color: var(--color01);
+padding: 5px 11px; 
+border: 2px solid var(--color01);
+border-radius: 10px;
+width: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap:5px
 }
 
 .botoes{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 5px;
 }
 
 .botao:hover {
-  background-color: var(--color02);
-  color: var(--color04);
+background-color: var(--color02);
+color: var(--color04);
 }
